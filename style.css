@@ -28,7 +28,7 @@ font-size: 20px;
 
 /* Carousels */
 .carousel-section{
-padding:70px 10% ;
+padding:50px 50% ;
 text-align:center ;
 background-color: #111314;
 }
@@ -63,8 +63,8 @@ position: relative;
 }
 
 .carousel-slide img {
-width: 100%;
-height: 600px;
+width: 80%;
+height: 450px;
 object-fit: cover;
 display: block;
 }
@@ -91,7 +91,7 @@ display: block;
     background-color: tomato;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,1.5);
+    box-shadow: 0 5px 5px rgba(0,0,0,1.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card :hover{
@@ -100,7 +100,7 @@ display: block;
 }
 .card-img{
     width: 100%;
-    height: 220px;
+    height: 20px;
     object-fit: cover;
     display: block;
 }
